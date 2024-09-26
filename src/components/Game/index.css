@@ -1,0 +1,101 @@
+.game-container {
+  background-color: #223a5f;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.choice-list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0px;
+  margin-top: 100px;
+}
+.list-item {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.choice {
+  width: 200px;
+}
+@media screen and (max-width: 767px) {
+  .choice {
+    width: 120px;
+  }
+}
+.button {
+  background-color: transparent;
+  outline: none;
+  border-style: none;
+  cursor: pointer;
+}
+
+.choice-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.choice-heading {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 28px;
+  font-weight: 600;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.choice-view-container {
+  width: 50vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.result-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+@media screen and (max-width: 767px) {
+  .choice-view-container {
+    width: 80vw;
+  }
+}
+
+.result-heading {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 34px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 767px) {
+  .result-heading {
+    font-size: 28px;
+  }
+}
+.play-again-button {
+  background-color: #ffffff;
+  outline: none;
+  cursor: pointer;
+  border-style: none;
+  border-radius: 10px;
+  font-family: Bree serif;
+  font-size: 16px;
+  height: 40px;
+  width: 160px;
+  color: #223a5f;
+}

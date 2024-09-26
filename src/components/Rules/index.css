@@ -1,0 +1,41 @@
+.rules-container {
+  align-self: flex-end;
+  margin-right: 10px;
+}
+.rule-button {
+  background-color: #ffffff;
+  height: 40px;
+  width: 70px;
+  outline: none;
+  cursor: pointer;
+  border-style: none;
+  border-radius: 6px;
+  font-family: Bree serif;
+  font-size: 14px;
+  color: #223a5f;
+}
+.rule-img-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.rule-close-button {
+  border-style: none;
+}
+
+.close-icon {
+  font-size: 14px;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.rule-img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 90%;
+}
